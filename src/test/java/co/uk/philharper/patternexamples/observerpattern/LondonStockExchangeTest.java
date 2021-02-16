@@ -25,7 +25,7 @@ class LondonStockExchangeTest {
 
         tescoStockData.setPrice(7.15);
 
-        assertThat(outputStreamCaptor.toString().trim(), equalTo("Current TESCO stock price: 7.15"));
+        assertThat(outputStreamCaptor.toString().trim(), equalTo("Current TSCO stock price: 7.15"));
     }
 
     @Test
